@@ -4,9 +4,9 @@ loadsmart:
     dev:
       type: postgres
       host: loadsmart.ccsxmttth1av.us-east-1.rds.amazonaws.com
-      user: postgres
-      password: e9q83wL62NRMEQlgIgu7
-      port: 5432
-      dbname: postgres
-      schema: public
+      user: 
+      password: 
+      port: 
+      dbname: 
+      schema: 
 
