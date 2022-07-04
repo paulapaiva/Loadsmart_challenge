@@ -20,7 +20,9 @@ with
 
     dm_quote as (
         select 
+            -- split
             lane as origin_city,
+            --split
             'split_lane' as delivery_city,
             quote_date ,
             pickup_appointment_time ,
