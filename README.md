@@ -12,7 +12,7 @@ Load the data
 
       2. Open loadsmart.ktr file and press CTRL + SHIFT + J and insert the database credentials and csv path 
 
-          ![image](https://user-images.githubusercontent.com/33011210/177075411-ea0f9783-d493-4a83-8bdb-e936274da466.png)
+         ![image](https://user-images.githubusercontent.com/33011210/177151238-7dee1fad-ca80-4d71-9c85-4b0925882ccd.png)
 
       3. Press F9 and run the file
 
