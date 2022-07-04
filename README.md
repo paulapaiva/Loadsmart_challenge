@@ -25,3 +25,7 @@ Load the data
         - dbt seed
         - dbt run
 
+View
+
+    Access the dashboard at https://app.powerbi.com/view?r=eyJrIjoiZGNjOWIzYTktZjU2Zi00YmY3LTllMjktNjk4MDhmNjg5MTcxIiwidCI6ImQ4YWJlMmU4LTlhMzItNDdlNy1hMzY0LWFjOTEyMGQ1NDI4NyJ9&pageName=ReportSection
+ or open loads.pbix at Power BI
