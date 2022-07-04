@@ -1,15 +1,26 @@
-Welcome to your new dbt project!
-
-### Using the starter project
-
-Try running the following commands:
-- dbt run
-- dbt test
+Create model
 
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+    1. In your database, run loadsmart.sql file
+
+
+
+Load the data
+
+
+      1. Download and install Pentaho
+
+      2. Open loadsmart.ktr file and press CTRL + SHIFT + J and insert the database credentials and csv path 
+
+          ![image](https://user-images.githubusercontent.com/33011210/177075411-ea0f9783-d493-4a83-8bdb-e936274da466.png)
+
+      3. Press F9 and run the file
+
+
+    ### Using dbt (incomplete)
+
+    Set your database in profiles.yml
+    Run the following commands:
+    - dbt seed
+    - dbt run
+
