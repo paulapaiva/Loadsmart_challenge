@@ -1,0 +1,12 @@
+loadsmart:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: loadsmart.ccsxmttth1av.us-east-1.rds.amazonaws.com
+      user: postgres
+      password: e9q83wL62NRMEQlgIgu7
+      port: 5432
+      dbname: postgres
+      schema: public
+

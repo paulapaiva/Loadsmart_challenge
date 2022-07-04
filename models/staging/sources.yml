@@ -1,0 +1,45 @@
+version: 2
+
+sources:
+  - name: loadsmart
+    database: postgres
+    tables:
+      - name: ft_shipment
+        columns:
+          - name: loadsmart_id 
+          - name: book_date 
+          - name: pickup_date 
+          - name: delivery_date 
+          - name: pnl 
+          - name: carrier_rating 
+          - name: sourcing_channel 
+          - name: carrier_dropped_us_count 
+          - name: carrier_on_time_to_pickup 
+          - name: carrier_on_time_to_delivery 
+          - name: carrier_on_time_overall 
+          - name: load_booked_autonomously 
+          - name: load_sourced_autonomously 
+          - name: load_was_cancelled 
+          - name: carrier_name 
+          - name: source_date 
+          - name: ft_quote
+
+      - name: dm_quote
+        columns:
+          - name: origin_city
+          - name: origin_state 
+          - name: delivery_city 
+          - name: delivery_state 
+          - name: quote_date 
+          - name: pickup_appointment_time 
+          - name: delivery_appointment_time 
+          - name: shipper_name 
+          - name: equipment_type 
+          - name: mileage 
+          - name: source_price
+          - name: loadsmart_id
+          - name: vip_carrier 
+          - name: has_mobile_app_tracking 
+          - name: has_macropoint_tracking  
+          - name: has_edi_tracking  
+          - name: contracted_load 
